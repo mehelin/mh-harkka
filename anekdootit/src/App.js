@@ -46,7 +46,7 @@ const App = () => {
       <Button handleClick={Voting} text='äänestä'/>
       <Button handleClick={getRandomAnecdote} text='seuraava anegdootti'/>
       <h2>Anekdootti jolla on eniten ääniä</h2>
-      {/* ex 1.14 */}
+      {/* harjoitus 1.14 */}
       <p>{anecdotes[BestAnecdote]} anekdootilla on {ääntä[BestAnecdote]} ääntä</p>
     </div>
   )
