@@ -42,7 +42,7 @@ const Tilastot = ({hyva, huono, neutraali}) => {
 
   return (
     <>
-    {/* ex 1.10 1.11*/}
+    {/* tässä taulukkoon*/}
     <table>
       <tbody>
         <tr><StatisticLine text='hyvä: ' value={hyva}></StatisticLine></tr>
