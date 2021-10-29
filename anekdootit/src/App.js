@@ -26,6 +26,8 @@ const App = () => {
   }
 
   // harjoitus 1.13 kopiointi
+  // Käytännössä { ...clicks } luo olion, jolla on kenttinään kopiot olion clicks kenttien arvoista. 
+  // Kun aaltosulkeisiin lisätään asioita, esim. { ...clicks, right: 1 }, tulee uuden olion kenttä right saamaan arvon 1.
   const [ääntä, setVotes] = useState(anecdotes.map(() => 0))
   
   const Voting = () => {
